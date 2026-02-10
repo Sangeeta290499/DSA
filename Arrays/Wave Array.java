@@ -1,3 +1,8 @@
+// Wave Array - Optimized Approach
+// Time Complexity: O(n)
+// Space Complexity: O(1)
+// Idea: Make every even index a peak by local swapping
+
 class Solution {
     public void sortInWave(int arr[]) {
        
