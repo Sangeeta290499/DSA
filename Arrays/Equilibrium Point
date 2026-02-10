@@ -1,0 +1,49 @@
+Equilibrium Point:
+
+Given an array of integers, find an index such that the sum of elements before it is equal to the sum of elements after it.
+If no such index exists, return -1.
+
+Approach:
+
+Calculate the total sum of the array.
+
+Initialize leftSum = 0.
+
+Traverse the array index by index.
+
+For each index i:
+
+Calculate rightSum = totalSum - leftSum - arr[i].
+
+If leftSum == rightSum, return i.
+
+Update leftSum += arr[i].
+
+If no equilibrium index is found, return -1.
+
+
+
+class Solution {
+    public static int findEquilibrium(int arr[]) {
+        
+          int n = arr.length;
+            int totalSum = 0;
+         for (int i = 0; i < n; i++) {
+             totalSum += arr[i];
+         }
+         
+         int leftSum = 0;
+
+         for (int i = 0; i < arr.length; i++) {
+                int rightSum = totalSum - leftSum - arr[i];
+            
+            if (leftSum == rightSum) {
+                return i;
+            }
+            
+            leftSum += arr[i];
+        }
+        return -1;
+    }
+}
+ 
