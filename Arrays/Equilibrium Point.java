@@ -1,25 +1,17 @@
-Equilibrium Point:
+// Equilibrium Point:
 
-Given an array of integers, find an index such that the sum of elements before it is equal to the sum of elements after it.
-If no such index exists, return -1.
+// Given an array of integers, find an index such that the sum of elements before it is equal to the sum of elements after it.
+// If no such index exists, return -1.
 
-Approach:
-
-Calculate the total sum of the array.
-
-Initialize leftSum = 0.
-
-Traverse the array index by index.
-
-For each index i:
-
-Calculate rightSum = totalSum - leftSum - arr[i].
-
-If leftSum == rightSum, return i.
-
-Update leftSum += arr[i].
-
-If no equilibrium index is found, return -1.
+// Approach:
+// 1.Calculate the total sum of the array.
+// 2.Initialize leftSum = 0.
+// 3.Traverse the array index by index.
+// 4.For each index i:
+// 5. Calculate rightSum = totalSum - leftSum - arr[i].
+// 6.If leftSum == rightSum, return i.
+// 7.Update leftSum += arr[i].
+// 8.If no equilibrium index is found, return -1.
 
 
 
