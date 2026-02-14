@@ -1,5 +1,6 @@
 // Maximum Nesting Depth of the Parentheses
 
+//Aproach:
 // Initialize two variables: currentDepth to track ongoing nesting level and maxDepth to store the maximum depth found.
 // Traverse the string character by character using a loop.
 // If the character is '(', increment currentDepth because we are entering a new level of nesting.
