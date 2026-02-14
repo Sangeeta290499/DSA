@@ -6,6 +6,8 @@
 // Update maxDepth using Math.max(maxDepth, currentDepth) to keep track of the highest nesting level.
 // If the character is ')', decrement currentDepth because we are exiting one level of nesting.
 
+// Time Complexity: O(n) | Space Complexity: O(1)
+
 class Solution {
     public int maxDepth(String s) {
         
