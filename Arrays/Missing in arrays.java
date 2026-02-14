@@ -1,5 +1,6 @@
-Missing in Arrays:
+// Missing in Arrays:
 
+//Aproach:
 // The array contains numbers from 1 to n, but one number is missing.
 // Find n using: n = arr.length + 1.
 // Add all numbers from 1 to n by looping and store the total.
