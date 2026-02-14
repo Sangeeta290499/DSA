@@ -1,5 +1,6 @@
 // Roman to Integer
 
+//Approach:
 // Store Roman symbols and their values in a HashMap.
 // Initialize a variable res = 0 to store the final result.
 // Traverse the string from left to right.
