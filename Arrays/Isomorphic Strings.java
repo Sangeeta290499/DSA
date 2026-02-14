@@ -1,5 +1,6 @@
  // Isomorphic Strings
 
+// Approach:
 // If lengths of both strings are different, return false.
 // Use two HashMaps to maintain character mapping (s → t and t → s).
 // Traverse both strings together character by character.
