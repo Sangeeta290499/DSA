@@ -7,6 +7,7 @@
 // l = 0 (smallest)
 // r = n - 1 (largest)
 // Choose a number greater than the maximum element (for encoding).
+// we will use Dividend = divisor * quotient + remainder formula 
 // Traverse the array:
     // At even index → place next largest element
     // At odd index → place next smallest element
